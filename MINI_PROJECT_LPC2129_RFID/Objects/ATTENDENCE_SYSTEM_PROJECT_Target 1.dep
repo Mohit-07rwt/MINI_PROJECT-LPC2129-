@@ -1,0 +1,15 @@
+Dependencies for Project 'ATTENDENCE_SYSTEM_PROJECT', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 526"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (..\vector\ARM\Interrupt\header3.h)(0x695CA226)()
+F (..\CLASS_PGMS\delay.c)(0x692F0AD3)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+F (..\PRACTICE\LCD\4bit_lcd\lcd_4bit_driver.c)(0x695015CC)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\lcd_4bit_driver.o --omf_browse .\objects\lcd_4bit_driver.crf --depend .\objects\lcd_4bit_driver.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (..\PRACTICE\LCD\4bit_lcd\header.h)(0x693FB712)
+F (..\PRACTICE\UART0\uart0_driver.c)(0x696D17D3)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\uart0_driver.o --omf_browse .\objects\uart0_driver.crf --depend .\objects\uart0_driver.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+F (.\RFID_project.c)(0x696E1E1C)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\rfid_project.o --omf_browse .\objects\rfid_project.crf --depend .\objects\rfid_project.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (header.h)(0x69501759)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EFE64)
+F (.\header.h)(0x69501759)()

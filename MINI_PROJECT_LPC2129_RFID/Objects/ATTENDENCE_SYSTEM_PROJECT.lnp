@@ -1,0 +1,10 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\delay.o"
+".\objects\lcd_4bit_driver.o"
+".\objects\uart0_driver.o"
+".\objects\rfid_project.o"
+--strict --scatter ".\Objects\ATTENDENCE_SYSTEM_PROJECT.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\ATTENDENCE_SYSTEM_PROJECT.map" -o .\Objects\ATTENDENCE_SYSTEM_PROJECT.axf
