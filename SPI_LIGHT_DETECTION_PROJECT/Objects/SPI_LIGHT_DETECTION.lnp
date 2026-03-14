@@ -1,0 +1,13 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\4bit_lcd_driver.o"
+".\objects\delay_timer.o"
+".\objects\mcp3204_driver.o"
+".\objects\sld_main.o"
+".\objects\spi_driver.o"
+".\objects\uart_driver.o"
+".\objects\vic_driver.o"
+--strict --scatter ".\Objects\SPI_LIGHT_DETECTION.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\SPI_LIGHT_DETECTION.map" -o .\Objects\SPI_LIGHT_DETECTION.axf
